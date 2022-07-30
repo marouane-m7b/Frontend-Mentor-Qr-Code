@@ -4,7 +4,7 @@ body {
 
 }
 .card {
-  width: 220px;
+  width: 250px;
   margin: auto;
   margin-top: 100px;
   background-color: #fff;
@@ -20,16 +20,8 @@ body {
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
-.card:hover {
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  box-shadow: black 4px 10px 40px;
-}
 img {
-  width: 220px;
+  width: 250px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -38,13 +30,15 @@ img {
 }
 .card p:first-of-type {
   text-align: center;
-  margin: 10px;
+  margin: 25px;
+  font-size: 18px;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
 }
 .card p:last-of-type {
   text-align: center;
   margin: 10px;
+  margin-bottom: 30px;
   font-weight: 400;
   font-size: 15px;
   color: hsl(220, 15%, 55%);
